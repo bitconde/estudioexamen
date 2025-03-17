@@ -1,0 +1,22 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    subject.txt                                        :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: mconde-s <mconde-s@student.42madrid.com    +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2025/03/04 17:47:12 by mconde-s          #+#    #+#              #
+#    Updated: 2025/03/06 16:05:33 by mconde-s         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+Assignment name  : ft_strcmp
+Expected files   : ft_strcmp.c
+Allowed functions:
+--------------------------------------------------------------------------------
+
+Reproduzca el comportamiento de la función strcmp (man strcmp).
+
+Su función debe declararse de la siguiente manera:
+
+int    ft_strcmp(char *s1, char *s2);

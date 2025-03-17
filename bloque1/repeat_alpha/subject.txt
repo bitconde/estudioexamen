@@ -1,0 +1,40 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    subject.txt                                        :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: mconde-s <mconde-s@student.42madrid.com    +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2025/02/24 18:42:23 by mconde-s          #+#    #+#              #
+#    Updated: 2025/02/24 18:43:17 by mconde-s         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+Assignment name  : repeat_alpha
+Expected files   : repeat_alpha.c
+Allowed functions: write
+--------------------------------------------------------------------------------
+
+Escriba un programa llamado repeat_alpha que tome una cadena y la muestre
+repitiendo cada carácter alfabético tantas veces como su índice alfabético,
+seguido de una nueva línea.
+
+'a' se convierte en 'a', 'b' se convierte en 'bb', 'e' se convierte en 'eeeee', etc...
+
+No se modifica el uso de mayúsculas y minúsculas.
+
+Si el número de argumentos no es 1, simplemente muestre una nueva línea.
+
+Examples:
+
+$>./repeat_alpha "abc"
+abbccc
+$>./repeat_alpha "Alex." | cat -e
+Alllllllllllleeeeexxxxxxxxxxxxxxxxxxxxxxxx.$
+$>./repeat_alpha 'abacadaba 42!' | cat -e
+abbacccaddddabba 42!$
+$>./repeat_alpha | cat -e
+$
+$>
+$>./repeat_alpha "" | cat -e
+$

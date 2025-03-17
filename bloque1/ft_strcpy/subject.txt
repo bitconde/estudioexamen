@@ -1,0 +1,17 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    subject.txt                                        :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: mconde-s <mconde-s@student.42madrid.com    +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2025/02/24 16:39:08 by mconde-s          #+#    #+#              #
+#    Updated: 2025/02/24 16:39:56 by mconde-s         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+Reproduzca el comportamiento de la función strcpy (man strcpy).
+
+Su función debe declararse de la siguiente manera:
+
+char    *ft_strcpy(char *s1, char *s2);

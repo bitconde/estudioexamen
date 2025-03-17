@@ -1,0 +1,39 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    subject.txt                                        :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: mconde-s <mconde-s@student.42madrid.com    +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2025/02/27 19:04:02 by mconde-s          #+#    #+#              #
+#    Updated: 2025/02/27 19:15:57 by mconde-s         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+Assignment name  : do_op
+Expected files   : *.c, *.h
+Allowed functions: atoi, printf, write
+--------------------------------------------------------------------------------
+
+Escriba un programa que tome tres cadenas:
+- La primera y la tercera son representaciones de números enteros con signo de base 10
+que caben en un int.
+- La segunda es un operador aritmético elegido entre: + - * / %
+
+El programa debe mostrar el resultado de la operación aritmética solicitada,
+seguido de una nueva línea. Si el número de parámetros no es 3, el programa
+solo muestra una nueva línea.
+
+Puede asumir que la cadena no tiene errores ni caracteres extraños. Los números negativos, en la entrada o la salida, tendrán un solo '-' inicial. El
+resultado de la operación cabe en un int.
+
+Examples:
+
+$> ./do_op "123" "*" 456 | cat -e
+56088$
+$> ./do_op "9828" "/" 234 | cat -e
+42$
+$> ./do_op "1" "+" "-43" | cat -e
+-42$
+$> ./do_op | cat -e
+$

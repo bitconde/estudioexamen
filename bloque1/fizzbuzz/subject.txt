@@ -1,0 +1,57 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    subject.txt                                        :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: mconde-s <mconde-s@student.42madrid.com    +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2025/02/24 16:37:32 by mconde-s          #+#    #+#              #
+#    Updated: 2025/03/15 12:20:26 by mconde-s         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+Assignment name  : fizzbuzz
+Expected files   : fizzbuzz.c
+Allowed functions: write
+--------------------------------------------------------------------------------
+
+Escriba un programa que imprima los números del 1 al 100, cada uno separado por una nueva línea.
+
+Si el número es múltiplo de 3, imprime 'fizz' en su lugar.
+
+Si el número es múltiplo de 5, imprime 'buzz' en su lugar.
+
+Si el número es múltiplo de 3 y de 5, imprime 'fizzbuzz' en su lugar.
+
+Example:
+
+$>./fizzbuzz
+1
+2
+fizz
+4
+buzz
+fizz
+7
+8
+fizz
+buzz
+11
+fizz
+13
+14
+fizzbuzz
+[...]
+97
+98
+fizz
+buzz
+$>
+
+
+
+Aspecto	putnbr	itoa
+Propósito	Imprimir un número directamente.	Convertir un número a texto para ser usado.
+Tipo de salida	Escribe en la consola o salida estándar.	Devuelve una cadena (char *).
+Uso común	Mostrar resultados inmediatamente.	Manipular números como cadenas.
+Retorno	Nada (void).	Un puntero a la cadena (char *).

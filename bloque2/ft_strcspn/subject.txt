@@ -1,0 +1,23 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    subject.txt                                        :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: mconde-s <mconde-s@student.42madrid.com    +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2025/03/06 16:59:21 by mconde-s          #+#    #+#              #
+#    Updated: 2025/03/06 17:00:00 by mconde-s         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+Assignment name	: ft_strcspn
+Expected files	: ft_strcspn.c
+Allowed functions: None
+---------------------------------------------------------------
+
+Reproducir exactamente el comportamiento de la función strcspn
+(man strcspn).
+
+La función debe ser prototipada de la siguiente manera:
+
+size_t	ft_strcspn(const char *s, const char *reject);
