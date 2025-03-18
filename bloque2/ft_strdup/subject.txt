@@ -1,0 +1,22 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    subject.txt                                        :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: mconde-s <mconde-s@student.42madrid.com    +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2025/03/18 15:40:46 by mconde-s          #+#    #+#              #
+#    Updated: 2025/03/18 15:41:46 by mconde-s         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+Assignment name  : ft_strdup
+Expected files   : ft_strdup.c
+Allowed functions: malloc
+--------------------------------------------------------------------------------
+
+Reproduzca el comportamiento de la función strdup (man strdup).
+
+Su función debe declararse de la siguiente manera:
+
+char    *ft_strdup(char *src);

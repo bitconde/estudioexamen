@@ -6,7 +6,7 @@
 /*   By: mconde-s <mconde-s@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/06 17:00:18 by mconde-s          #+#    #+#             */
-/*   Updated: 2025/03/06 17:49:17 by mconde-s         ###   ########.fr       */
+/*   Updated: 2025/03/18 15:36:28 by mconde-s         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,7 +25,7 @@ size_t	ft_strcspn(const char *s, const char *reject)
 
     j = 0;
     i = 0;
-    
+    //si no existe s, te devuelve un 0. NO se ha puesto esa condición.
     while(s[i])
     {
         while(reject[j])

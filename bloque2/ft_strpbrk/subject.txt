@@ -1,0 +1,23 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    subject.txt                                        :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: mconde-s <mconde-s@student.42madrid.com    +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2025/03/18 16:21:21 by mconde-s          #+#    #+#              #
+#    Updated: 2025/03/18 16:22:36 by mconde-s         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+Assignment name	: ft_strpbrk
+Expected files	: ft_strpbrk.c
+Allowed functions: None
+---------------------------------------------------------------
+
+Reproducir exactamente el comportamiento de la función strpbrk
+(man strpbrk).
+
+La función debe prototiparse de la siguiente manera:
+
+char	*ft_strpbrk(const char *s1, const char *s2);
