@@ -6,12 +6,14 @@
 /*   By: mconde-s <mconde-s@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/18 23:51:09 by mconde-s          #+#    #+#             */
-/*   Updated: 2025/03/19 00:19:26 by mconde-s         ###   ########.fr       */
+/*   Updated: 2025/03/19 19:17:10 by mconde-s         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 #include <unistd.h>
+
+//NO ESTÁ RESUELTO MIRAR.
 
 int has_char(char *str, char c, int max_index)
 {

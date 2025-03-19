@@ -1,0 +1,26 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    subject.txt                                        :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: mconde-s <mconde-s@student.42madrid.com    +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2025/03/19 23:08:42 by mconde-s          #+#    #+#              #
+#    Updated: 2025/03/19 23:09:51 by mconde-s         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+Assignment name  : max
+Expected files   : max.c
+Allowed functions:
+--------------------------------------------------------------------------------
+
+Escriba la siguiente función:
+
+int max(int* tab, unsigned int len);
+
+El primer parámetro es un array de int, el segundo es el número de elementos del array.
+
+La función devuelve el número más grande del array.
+
+Si el array está vacío, la función devuelve 0.
